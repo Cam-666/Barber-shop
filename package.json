@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "vercel-build": "pnpm install --no-frozen-lockfile && pnpm build"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -70,4 +71,8 @@
     "tw-animate-css": "1.3.3",
     "typescript": "^5"
   }
+
+  
 }
+
+
